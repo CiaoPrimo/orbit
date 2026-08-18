@@ -301,8 +301,6 @@ export async function logAudit(workspaceGroupId: number, userId: number | bigint
 					}
 
 					const webhookBody = {
-						username: "Orbit",
-						avatar_url: "https://cdn.planetaryapp.us/brand/planetary.png",
 						embeds: [embed],
 					}
 
