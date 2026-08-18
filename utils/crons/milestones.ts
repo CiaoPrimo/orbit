@@ -108,9 +108,6 @@ export async function runMilestoneCron() {
 
           await axios.post(webhookConfig.url, {
             content: message,
-            username: "Orbit",
-            avatar_url:
-              "http://cdn.planetaryapp.us/brand/planetary.png",
           });
 
           results.push({
@@ -145,9 +142,6 @@ export async function runMilestoneCron() {
 
         await axios.post(webhookConfig.url, {
           content: message,
-          username: "Orbit",
-          avatar_url:
-            "http://cdn.planetaryapp.us/brand/planetary.png",
         });
 
         results.push({
